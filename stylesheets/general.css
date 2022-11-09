@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+li {
+    list-style: none;
+}
+
+:root {
+    --Bright-Red: hsl(12, 88%, 59%);
+    --Dark-Blue: hsl(228, 39%, 23%);
+    --Very-Dark-Blue: hsl(233, 12%, 13%);
+    --Very-Pale-Red: hsl(13, 100%, 96%);
+    --Vary-Light-Gray: hsl(0, 0%, 98%);
+    --Type-Gray: hsl(227, 12%, 61%);
+}
+
+body {
+    background-image: url("/images/bg-simplify-section-desktop22222.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    scroll-behavior: smooth;
+}
+/* ESTILO GENERAL BOTONES */
+button {
+    background-color: var(--Bright-Red);
+    color: var(--Vary-Light-Gray);
+    padding: 7px;
+    width: 10%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+}
+/* H1 ANTES DE LOS TESTIMONIOS */
+.contenedor__section--testimonios {
+    font-size: 3.5em;
+    text-align: center;
+    padding: 1.5em;
+    color: var(--Dark-Blue);
+}
+/* BUTTON ABAJO DE LOS TESTIMONIOS */
+.button-diferente {
+    text-align: center;
+    padding: 3em;
+}
+ /* ULTIMA SECCION ANTES DEL FOOTER */
+.ultima__section {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Bright-Red);
+    height: 200px;
+    align-items: center;
+    background-image: url("/images/bg-simplify-section-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+ /* ULTIMA SECCION ANTES DEL FOOTER */
+.ultima__section--h1 {
+    font-size: 2em;
+    color: var(--Vary-Light-Gray);
+}
+ /* ULTIMA SECCION ANTES DEL FOOTER */
+.ultima__section--button {
+    background-color: var(--Vary-Light-Gray);
+    color: var(--Bright-Red);
+}

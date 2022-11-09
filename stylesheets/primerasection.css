@@ -1,0 +1,35 @@
+.contenedor__primerasection {
+    display: flex;
+}
+
+.contenedor__primerasection--img {
+    position: relative;
+    bottom: 20px;
+    right: 139px;
+}
+
+.contenedor__primerasection--h1 {
+    font-size: 3.5em;
+    padding: .7em 0.14em;
+    margin: auto;
+    width: 68%;
+    color: var(--Dark-Blue);
+}
+
+.contenedor__primerasection--parrafo {
+    margin: 3px;
+    padding: 0em 9.4em;
+    position: relative;
+    bottom: 0.7em;
+}
+.contenedor__primerabutton--div {
+    padding-top: 1.4em;
+}
+
+.contenedor__primerasection--button {
+    position: absolute;
+    left: 9.4em;
+}
+
+
+

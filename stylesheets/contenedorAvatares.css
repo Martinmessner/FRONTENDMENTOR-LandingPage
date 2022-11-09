@@ -1,0 +1,14 @@
+.contenedor__avatares {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3em;
+    text-align: center;
+    align-items: center;
+}
+
+.contenedor__avatares--div {
+    background-color: var(--Vary-Light-Gray);
+}
+.contenedor__avatares--imgavatar {
+    height: 80px;
+}

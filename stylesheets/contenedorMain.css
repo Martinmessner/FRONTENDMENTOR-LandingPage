@@ -1,0 +1,28 @@
+.contenedor__main {
+    display: grid;
+    grid-template-columns: 54% 46%;
+    padding: 4em 9em;
+}
+.contenedor__main--parrafo {
+    width: 51%;
+    padding: 1.5em 0em;
+}
+.contenedor__main--h1 {
+    font-size: 3em;
+}
+
+.contenedor__main--testimony {
+    color: var(--Dark-Blue);
+}
+.contenedor__segundasectionmain--parrafo {
+    padding: 1em 6em;
+    font-weight: 400;
+    font-size: 14px;
+}
+.contenedor__main--small {
+    padding: 1.3em;
+    font-weight: 700;
+}
+.contenedor__main--button {
+    width: 11%;
+}
