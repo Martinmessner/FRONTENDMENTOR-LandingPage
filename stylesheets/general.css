@@ -26,6 +26,7 @@ body {
     background-position: top;
     position: relative;
     scroll-behavior: smooth;
+    min-width: 1440px;
 }
 /* ESTILO GENERAL BOTONES */
 button {
