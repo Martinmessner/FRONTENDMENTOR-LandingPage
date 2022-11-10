@@ -7,8 +7,9 @@
     font-size: 16px;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-li {
+li, a {
     list-style: none;
+    text-decoration: none;
 }
 
 :root {

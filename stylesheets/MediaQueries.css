@@ -1,5 +1,36 @@
-@media (min-width: 1400px) {
-    body {
-        min-width: 1400px;
+@media (min-width: 1214px) {
+    .contenedor__primerasection--parrafo {
+        padding-right: 10em;
+        letter-spacing: 1px;
     }
 }
+
+@media (min-width: 1233px) {
+    .contenedor__ul--delnav {
+        justify-content: space-around;
+        padding-left: 1.2em;
+       
+    }
+    
+ }
+
+ @media (max-width: 894px) {
+    .contenedor__primerasection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contenedor__descripciondiv {
+       width: 100%;
+    }
+
+    .contenedor__divimagen {
+        width: 100%;
+
+    }
+
+    .contenedor__primerasection--img {
+        width: 100%;
+       
+    }
+ }

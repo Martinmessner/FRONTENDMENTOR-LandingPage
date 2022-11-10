@@ -8,7 +8,11 @@
 
 .contenedor__avatares--div {
     background-color: var(--Vary-Light-Gray);
+    color: var(--Type-Gray);
 }
 .contenedor__avatares--imgavatar {
     height: 80px;
+}
+.contenedor__avatares h2 {
+   color: #000000;
 }
