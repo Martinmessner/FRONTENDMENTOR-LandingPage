@@ -1,5 +1,127 @@
 .contenedor__primerasection {
     display: flex;
+    min-height: 600px;
+    max-height: auto;
+}
+
+.contenedor__descripciondiv {
+    width: 50%;
+    height: 100%;
+    padding: 2em 4.5em;
+}
+
+.contenedor__divimagen {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor__primerasection--img {
+    width: 100%;
+    max-width: 550px;
+}
+.contenedor__primerasection--h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.contenedor__primerasection--parrafo {
+    font-weight: 400;
+    color: var(--Type-Gray);
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+
+
+/* HTML NUEVO
+
+<section>
+<div class="contenedor__primerasection">
+  <div class="xd1descrip">
+    <h1 class="contenedor__primerasection--h1">Bring everyone together to build better products.</h1>
+    <h3 class="contenedor__primerasection--parrafo"> Manage makes it simple for software teams to plan 
+      day-to-day tasks while keeping the larger team goals in view.</h3>
+    <div class="contenedor__primerabutton--div">
+      <button class="contenedor__primerasection--button">Get Started</button>
+    </div>
+  </div>
+
+    <div class="xd2imagen">
+      <img class="contenedor__primerasection--img" src="./images/illustration-intro.svg">
+    </div>
+
+</div>
+</section>
+
+Y CSS NUEVO;
+
+.contenedor__primerasection {
+    display: flex;
+    min-height: 600px;
+    max-height: auto;
+}
+
+.xd1descrip {
+    width: 50%;
+    height: 100%;
+    padding: 10% 0;
+}
+
+.xd2imagen {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor__primerasection--img {
+    width: 100%;
+    max-width: 550px;
+}
+.contenedor__primerasection--h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 55px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.contenedor__primerasection--parrafo {
+    font-weight: 400;
+    color: grey;
+    padding-right: 20px;
+    margin-bottom: 60px;
+}
+
+
+*/
+
+
+
+
+
+
+/* HTML VIEJO: 
+
+<section class="contenedor__primerasection">
+  <ul>
+    <li><h1 class="contenedor__primerasection--h1">Bring everyone together to build better products.</h1></li>
+    <p class="contenedor__primerasection--parrafo"> Manage makes it simple for software teams</p>
+    <p class="contenedor__primerasection--parrafo">to plan day-to-day tasks while keeping the </p>
+    <p class="contenedor__primerasection--parrafo">larger team goals in view.</p>
+    <div class="contenedor__primerabutton--div">
+      <button class="contenedor__primerasection--button">Get Started</button>
+    </div>
+      
+  </ul>
+
+  <img class="contenedor__primerasection--img" src="./images/illustration-intro.svg">
+
+  </section>
+
+
+CSS VIEJO
+
+.contenedor__primerasection {
+    display: flex;
 }
 
 .contenedor__primerasection--img {
@@ -33,3 +155,6 @@
 
 
 
+
+
+*/

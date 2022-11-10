@@ -1,15 +1,12 @@
 
 .contenedor__ul--delnav {
     display: flex;
-    gap: 30px;
+    justify-content: space-evenly;
     font-weight: 500;
     color: var(--Dark-Blue);
 }
 
 .contenedor__nav {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 12.8em;
     padding: 3em 0em 7em 0em;
 }
