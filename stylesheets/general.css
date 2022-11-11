@@ -84,3 +84,6 @@ footer ul li img:hover {
     transform: scale(1.5);
     color: var(--Very-Pale-Red);
 }
+.change__color {
+    color: var(--Dark-Blue);
+}
