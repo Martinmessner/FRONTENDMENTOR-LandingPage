@@ -15,3 +15,7 @@
     display: none;
     cursor: pointer;
 }
+
+.contenedor__ul--delnav a:hover {
+    color: var(--Type-Gray);
+}

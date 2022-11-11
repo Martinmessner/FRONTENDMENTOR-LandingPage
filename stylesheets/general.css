@@ -37,6 +37,10 @@ button {
     font-weight: 700;
     border: none;
 }
+button:hover {
+    background-color: #ff8f73;
+    color: var(--Vary-Light-Gray);
+}
 /* H1 ANTES DE LOS TESTIMONIOS */
 .contenedor__section--testimonios {
     font-size: 3.5em;
@@ -75,4 +79,8 @@ button {
 }
 .test2 {
     display: none;
+}
+footer ul li img:hover {
+    transform: scale(1.5);
+    color: var(--Very-Pale-Red);
 }

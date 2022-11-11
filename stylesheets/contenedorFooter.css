@@ -27,7 +27,9 @@ footer ul li {
     margin: 10px 0px;
     font-size: 14px;
 }
-
+footer ul li:hover {
+    color:var(--Bright-Red);
+} 
 .contenedor__inputfooter {
     border-radius: 25px;
     min-width: 60%;
@@ -35,7 +37,7 @@ footer ul li {
     margin: 2px;
 }
 ::placeholder {
-    color: var(--Type-Gray);
+    color:var(--Bright-Red);
 }
 .footer__parrafo {
     padding-top: 5em;
