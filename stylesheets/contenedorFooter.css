@@ -30,7 +30,7 @@ footer ul li {
 
 .contenedor__inputfooter {
     border-radius: 25px;
-    width: 60%;
+    min-width: 60%;
     padding: 14px;
     margin: 2px;
 }
@@ -42,6 +42,6 @@ footer ul li {
 }
 
 .footer__button {
-    min-width: 15%;
-    padding: 16px;
+    min-width: 3em;
+    padding: 10px;
 }

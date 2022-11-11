@@ -31,7 +31,7 @@ button {
     background-color: var(--Bright-Red);
     color: var(--Vary-Light-Gray);
     padding: 7px;
-    width: 10%;
+    width: 10em;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 700;
@@ -69,4 +69,10 @@ button {
 .ultima__section--button {
     background-color: var(--Vary-Light-Gray);
     color: var(--Bright-Red);
+}
+.test__completed {
+    display: none;
+}
+.test2 {
+    display: none;
 }

@@ -9,7 +9,6 @@
     .contenedor__ul--delnav {
         justify-content: space-around;
         padding-left: 1.2em;
-       
     }
     
  }
@@ -26,11 +25,141 @@
 
     .contenedor__divimagen {
         width: 100%;
-
     }
 
     .contenedor__primerasection--img {
         width: 100%;
-       
+    }
+ }
+ 
+@media (min-width: 300px) and (max-width: 865px) {
+    .contenedor__primerasection--h1, .contenedor__primerasection--parrafo, .contenedor__primerabutton--div {
+        text-align: center;
+     }
+     
+    .contenedor__main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contenedor__main--parrafo {
+        width: 100%;
+    }
+    .contenedor__main--button {
+        width: 4em;
+    }
+    .ultima__section {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ultima__section--h1 {
+        width: 50%;
+        margin: .4em 0em;
+    }
+    .ultima__section--button {
+        min-width: 10em;
+    }
+    .contenedor__footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+   .footer__parrafo {
+    position: relative;
+    top: 22em;
+    text-align: center;
+   }
+
+   .segundalista__navegacion {
+        position: relative;
+        text-align: center;
+        bottom: 3.5em;
+   }
+
+   .contenedor__footer--logoblanco {
+    position: relative;
+    width: 40%;
+    top: 3em;
+   }
+
+   .contenedor__footer div {
+    text-align: center;
+   }
+
+   .lista__imagenes {
+    padding-top: 2em;
+    position: relative;
+    bottom: 8em;
+    justify-content: center;
+    gap: 3em;
+   }
+
+   .lista__imagenes img {
+    width: 2.2em;
+   }
+   .contenedor__ul--delnav {
+    display: none;
+    justify-content: space-around;
+   }
+
+   .nav__hamburguer {
+        display: flex;
+        position: absolute;
+        right: 2vh;
+        top: 5vh;
+   }
+
+   .contenedor__ul--delnav img {
+        height: 4em;
+        padding-top: 1em;
+   }
+    .oculted {
+    padding: 0em;
+   }
+
+   .contenedor__ul--delnav.activo {
+    position: absolute;
+    top: 15vh;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    background-color: var(--Vary-Light-Gray);
+   }
+   
+   .contenedor__ul--delnav.activo a {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: .5em;
+   }
+   .test2 {
+    display: block;
+    position: absolute;
+    top: 6vh;
+    height: 3em;
+    left: 2vh;
+   }
+}
+
+@media (max-width: 410px) {
+    .test2 {
+        height: 1.8em;
+    }
+    .lista__imagenes {
+        gap: 0.8em;
+    }
+}
+
+@media (max-width: 423px) {
+   .ultima__section--h1 {
+    width: 100%;
+   }
+}
+
+@media (max-width: 350px) {
+    .contenedor__primerasection--h1 {
+        font-size: 2.2em;
     }
  }
