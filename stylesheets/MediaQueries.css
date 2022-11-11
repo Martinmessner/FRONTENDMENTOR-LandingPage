@@ -37,6 +37,11 @@
         text-align: center;
      }
      
+     .contenedor__main--testimony {
+        border-left: 2px var(--Bright-Red) solid;
+        box-shadow: 2px 2px 2px orange;
+     }
+
     .contenedor__main {
         display: flex;
         flex-direction: column;
@@ -161,5 +166,11 @@
 @media (max-width: 350px) {
     .contenedor__primerasection--h1 {
         font-size: 2.2em;
+    }
+ }
+
+ @media (max-width: 580px) {
+    .contenedor__avatares {
+        grid-template-columns: auto;
     }
  }
